@@ -1,0 +1,87 @@
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 480px) {
+/* Styles */
+    body,html{
+        
+    }
+    .nav-container nav{
+        width:100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .wrapper{
+        width:100%;
+        border:0;
+        margin: 0;
+        padding: 0;
+        background-color:#faa;
+        border-radius: 0;
+    }
+    .nav-container  nav ul li {
+        float: none;
+        display: block;
+        width: 100%;
+        list-style: none;
+    }
+    .nav-right,.nav-left{
+        display:none;
+    }
+    .sticky {
+        position: absolute;
+    }
+    nav li a:hover, nav li a.selected {background: #36638a;text-decoration: none;display: block}
+    #shortcodes,.column, .columns, .row .three.columns, .row .six.columns, .row .nine.columns,.row .twelve.columns{
+        float: none;
+        text-align: justify;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .image{
+        float: none;
+    }
+    .gallery{
+        height: auto;
+    }
+    #gallery ul.gallery li{
+        
+        float:none;
+        margin:0;
+        text-align: center;
+        width: 100%;
+    }
+    .gallery img{
+        width: 80%
+    }
+    .row .three.columns.imgflk{
+        text-align: center;
+        width: auto;
+    }
+    .orbit-wrapper{
+        width: 100%;
+    }
+    #buttons{
+        margin: 0;
+    }
+    footer{
+        height: auto;
+        margin: 0;
+    }
+    .social{
+        float:none;
+        clear: both; 
+    }
+    .image {
+        width: 90%;
+    }
+    .form .txtinput,.form textarea{
+        padding-left: 20% ;
+        width: 80%;
+    }
+    #buttons #resetbtn, #buttons #submitbtn{
+        width: 100%
+    }
+
+}
+
